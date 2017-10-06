@@ -60,8 +60,8 @@ p{
 .ms-right .section2{
 	background-image: url(../image/photo.jpg);
 	background-repeat: no-repeat;
-	background-position: right;
-	background-size: 100%;
+	background-position: left;
+	background-size: cover;
 }
 
 
@@ -103,11 +103,12 @@ p{
 }
 .section4 h1{
 	color: black;
-	text-align: left;
+	text-align: right;
 	margin-right: 20px;
-	font-size: 2em;
+	font-size: 1.5em;
 	position: absolute;
 	bottom:15px;
+	left:50%;
 	
 }
 
@@ -130,7 +131,7 @@ p{
 	color: black;
 	text-align: right;
 	margin-left: 20px;
-	font-size: 2em;
+	font-size: 1.5em;
 	text-align: left;
 	position: absolute;
 	bottom:15px;
@@ -138,7 +139,10 @@ p{
 }
 
 .ms-left .section5{
-	background-image: url(../image/magic.jpg) no-repeat center fixed; ;
+	background-image: url(../image/magic.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+
 	
 	 -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
@@ -147,31 +151,142 @@ p{
 
 
 
-
-
-
 /* Section 6
  * --------------------------------------- */
-.ms-left .section6{
- /* fallback */
-  background-color: white;
-  
+.section6{
+	background:white;
+	
 }
-.ms-right .section6{
-	background-color: red;
+.section6 h1{
+	color: black;
+	text-align: right;
+	margin-right: 20px;
+	font-size: 1.5em;
+	position: absolute;
+	bottom:15px;
+	left:50%;
 	
 }
 
+.ms-right .section6{
+	background-image: url(../image/school.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	 -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+	
+}
 
-.section6 h1{
+/* Section 7
+ * --------------------------------------- */
+.section7{
+	background:white;
+	
+}
+.ms-right .section7 h1{
+	color: black;
+	text-align: right;
+	margin-left: 20px;
+	font-size: 1.5em;
+	text-align: left;
+	position: absolute;
+	bottom:15px;
+	
+}
+
+.ms-left .section7{
+	background-image: url(../image/product.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+
+	
+	 -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+	
+
+
+/* Section 8
+ * --------------------------------------- */
+.section8{
+	background:white;
+	
+}
+.section8 h1{
+	color: black;
+	text-align: right;
+	margin-right: 20px;
+	font-size: 1.5em;
+	position: absolute;
+	bottom:15px;
+	left:50%;
+	
+}
+
+.ms-right .section8{
+	background-image: url(../image/jazz.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	 -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+	
+}
+
+/* Section 9
+ * --------------------------------------- */
+.section9{
+	background:white;
+	
+}
+.ms-right .section9 h1{
+	color: black;
+	text-align: right;
+	margin-left: 20px;
+	font-size: 1.5em;
+	text-align: left;
+	position: absolute;
+	bottom:15px;
+	
+}
+
+.ms-left .section9{
+	background-image: url(../image/kgb.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+
+	
+	 -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+
+/* Section 10
+ * --------------------------------------- */
+.ms-left .section10 .fullscreen{
+	
+	top:23%;
+	}
+	.section9 {
+	
+	background-color: red;
+	}
+.fullscreen img {
+	margin-top:150px;
+	 -webkit-animation:  bounce 0.35s ease infinite alternate;
+	animation: bounce 0.35s ease infinite alternate;
+	}
+
+
+
+.section10 h1{
  	color: #fff;
  }
-.section6 h2{
+.section10 h2{
  	margin: 15px 0 0 0;
 	
 	color: white;
 }
-.section6 .content{
+.section10 .content{
 	margin-left: 15%;
 	display: block;
 	top: 20%;
@@ -253,7 +368,7 @@ p {font-family: Helvetica, Arial, sans-serif;
 	form {
  background-color:#FAFAFA;
  padding:10px;
- width:280px;
+ 
  }
 fieldset {
  padding:0 20px 20px 20px;
