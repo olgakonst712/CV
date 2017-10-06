@@ -9,12 +9,19 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 
 	
 }
-h1{font-family: helvetica,arial;
+h3 {font-family: arial; helvetica;
 	color: white;
-	font-size: 4em;
-	font-weight: normal;
+	margin-top: 200px;
+	font-size: 7em;
+	font-weight: bold;
+
 }
 h2{font-family: helvetica,arial;
+	color: white;
+	font-size: 1.6em;
+	font-weight: normal;
+}
+h1{font-family: helvetica,arial;
 	color: white;
 	font-size: 1.6em;
 	font-weight: normal;
@@ -47,7 +54,7 @@ p{
 	top:23%;
 	}
 .fullscreen img {
-	margin-top:150px;
+	margin-bottom:200px;
 	 -webkit-animation:  bounce 0.35s ease infinite alternate;
 	animation: bounce 0.35s ease infinite alternate;
 	}
@@ -368,6 +375,11 @@ p {font-family: Helvetica, Arial, sans-serif;
 	form {
  background-color:red;
  padding:10px;
+ font-family: helvetica; arial;
+ 
+ }
+ p form {
+ margin-left: 0px.
  
  }
 fieldset {
@@ -388,7 +400,7 @@ label.inline {
  margin-right:50px;
  }
 input, textarea, select, option {
- background-color:#FFF3F3;
+ 
  }
 input, textarea, select {
  padding:3px;
