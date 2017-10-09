@@ -11,8 +11,15 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 }
 h3 {font-family: arial; helvetica;
 	color: white;
-	margin-top: 200px;
-	font-size: 7em;
+	margin-top: 100px;
+	font-size: 7vw;
+	font-weight: bold;
+
+}
+h4 {font-family: arial; helvetica;
+	color: red;
+	margin-top: 50px;
+	font-size: 7vw;
 	font-weight: bold;
 
 }
@@ -53,8 +60,8 @@ p{
 .ms-left .section1 .fullscreen{
 	top:23%;
 	}
-.fullscreen img {
-	margin-top:100px;
+.fullscreen img {position: relative;
+	bottom: -100px;
 	 -webkit-animation:  bounce 0.35s ease infinite alternate;
 	animation: bounce 0.35s ease infinite alternate;
 	}
@@ -249,31 +256,111 @@ p{
 	}
 	.section9 {
 	
-	background-color: red;
+	background-color: white;
 	}
 .section9 .fullscreen img {
-	margin-top:150px;
+	
 	 -webkit-animation:  bounce_back  0.35s ease infinite alternate;
 	animation: bounce_back  0.35s ease infinite alternate;
 	}
 
 
 
-.section9 h1{
- 	color: #fff;
- }
-.section9 h2{
- 	margin: 15px 0 0 0;
-	
-	color: white;
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.section9 .content{
-	margin-left: 15%;
-	display: block;
-	top: 20%;
-	position: absolute;
-	box-sizing: border-box;
+
+html, body {
+  background: #f1f1f1;
+  font-family: 'Merriweather', sans-serif;
+  padding: 1em;
 }
+
+h1 {
+  text-align: center;
+  color: #a8a8a8;
+  text-shadow: 1px 1px 0 white;
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+form input, form textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: 'Merriweather', sans-serif;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+form input:focus, form textarea:focus {
+  -moz-box-shadow: 0 0px 2px #e74c3c !important;
+  -webkit-box-shadow: 0 0px 2px #e74c3c !important;
+  box-shadow: 0 0px 2px #e74c3c !important;
+}
+form #input-submit {
+  color: white;
+  background: #e74c3c;
+  cursor: pointer;
+}
+form #input-submit:hover {
+  -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+form textarea {
+  height: 126px;
+}
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  margin-right: 2%;
+}
+
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+/* Clearfix */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
 
 p {font-family: Helvetica, Arial, sans-serif;
 	padding-top: 10px;
@@ -347,7 +434,7 @@ p {font-family: Helvetica, Arial, sans-serif;
 /* formulaire
  * --------------------------------------- */
 	form {
- background-color:red;
+ background-color:white;
  padding:10px;
  font-family: helvetica; arial;
  
