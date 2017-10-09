@@ -1,7 +1,11 @@
 
 
 
-
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
 <?php
 /* Email du destinataire (mettez ici votre email) */
 $destinataire = "olgakonstantinova712@gmail.com";
@@ -39,3 +43,4 @@ if ( !$erreur ) {
   echo "Le message a Ã©tÃ© envoyÃ©.";
 }
 ?>
+</html>
