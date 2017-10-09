@@ -239,45 +239,19 @@ p{
 	
 }
 
+
+
 /* Section 9
  * --------------------------------------- */
-.section9{
-	background:white;
-	
-}
-.ms-right .section9 h1{
-	color: black;
-	text-align: right;
-	margin-left: 20px;
-	font-size: 1.5em;
-	text-align: left;
-	position: absolute;
-	bottom:15px;
-	
-}
-
-.ms-left .section9{
-	background-image: url(../image/kgb.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-
-	
-	 -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
-}
-
-
-/* Section 10
- * --------------------------------------- */
-.ms-left .section10 .fullscreen{
+.ms-left .section9 .fullscreen{
 	
 	top:23%;
 	}
-	.section10 {
+	.section9 {
 	
 	background-color: red;
 	}
-.section10 .fullscreen img {
+.section9 .fullscreen img {
 	margin-top:150px;
 	 -webkit-animation:  bounce_back  0.35s ease infinite alternate;
 	animation: bounce_back  0.35s ease infinite alternate;
@@ -285,15 +259,15 @@ p{
 
 
 
-.section10 h1{
+.section9 h1{
  	color: #fff;
  }
-.section10 h2{
+.section9 h2{
  	margin: 15px 0 0 0;
 	
 	color: white;
 }
-.section10 .content{
+.section9 .content{
 	margin-left: 15%;
 	display: block;
 	top: 20%;
