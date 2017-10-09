@@ -9,7 +9,7 @@ $destinataire = "olgakonstantinova712@gmail.com";
 /* RÃ©cupÃ©ration */
 $nom = $_POST['nom'];
 $email = $_POST['email'];
-$objet = $_POST['subject'];
+$subject = $_POST['subject'];
 $message = $_POST['message'];
 $header = "From: " . $_POST['email'];
 
