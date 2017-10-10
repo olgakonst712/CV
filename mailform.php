@@ -40,7 +40,7 @@ if ( $email == "" OR !eregi( $email_regex , $email ) ) {
 /* Envoi du mail */
 if ( !$erreur ) {
   mail( $destinataire , $objet , $message , $header );
-  echo "Le message a Ã©tÃ© envoyÃ©.";
+  echo "Votre message a été envoyé avec succès";
 }
 ?>
 </html>
