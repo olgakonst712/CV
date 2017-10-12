@@ -1,3 +1,12 @@
+<?php 
+
+if (isset($_GET["haveMessage"])) {
+	$haveMessage = $_GET["haveMessage"];
+}
+
+
+ ?>
+
 <!DOCTYPE html>
 <html lang="fr"> 
 <head>
@@ -15,11 +24,11 @@
 <body>
 <div id="myContainer">
 	<div class="ms-left">
-		<div class="ms-section section1">
+		<div class="ms-section section1" id="section1">
 			<div class="graduated"></div>
 			<div class="fullscreen">
 				<h3>HELLO WORLD</h3>
-					<a href=".ms-section section9"><img src="accets/image/flecheBlanche.png" width="50" height="40" alt="fleche" titre="fleche"></a>
+					<a href="#section9"><img src="accets/image/flecheBlanche.png" width="50" height="40" alt="fleche" titre="fleche"></a>
 			</div>
 		    </div>
         <div class="ms-section section2">
@@ -65,7 +74,7 @@
 		<div class="ms-section section8">
 			<h4>Jazz concert poster</h4>
 		</div>
-		<div class="ms-section section9">
+		<div class="ms-section section9" id="section9">
 			<div class="fullscreen">
 				<h4>SAY ME HELLO</h4>
                   <form class="cf" action="mailform.php" method="post" >
@@ -79,8 +88,8 @@
                      </div>  
                      <input type="submit" value="Submit" id="input-submit">
                   </form>
-			  <a href="index.html"> <img src="accets/image/flecheBlancheback.png" width="50" height="40" alt="fleche" titre="fleche"></a>
-
+			  <a href="#section1"> <img src="accets/image/flecheBlancheback.png" width="50" height="40" alt="fleche" titre="fleche"></a>
+			<p class="<?php echo ($haveMessage) ? "show" : "hide" ?>">Message</p>
 
             </div>
 		</div>

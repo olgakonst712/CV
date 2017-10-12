@@ -1,11 +1,3 @@
-
-
-
-<!DOCTYPE html>
-<html lang="fr"> 
-<head>
-	<meta charset="utf-8">
-</head>
 <?php
 /* Email du destinataire (mettez ici votre email) */
 $destinataire = "olgakonstantinova712@gmail.com";
@@ -31,16 +23,23 @@ if ( $message == "" ) {
   $erreur = true;
 }
 
-/* VÃ©rification du mail */
-$email_regex = "^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+.[a-z0-9-]";
-if ( $email == "" OR !eregi( $email_regex , $email ) ) {
-  echo "Veuillez indiquer un email valide.";
-  $erreur = true;
+
+if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    echo "E-mail is not valid";
+  	$erreur = true;
 }
-/* Envoi du mail */
+
+ /* Envoi du mail */
 if ( !$erreur ) {
   mail( $destinataire , $objet , $message , $header );
-  echo "Votre message a été envoyé avec succès";
+} else {
+	echo "erreur";
 }
+
+$host  = $_SERVER['HTTP_HOST'];
+$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+
+header("Location: http://$host/$uri/index.php#section9?haveMessage=true");
+
 ?>
-</html>
+
