@@ -63,16 +63,18 @@ form,fieldset,input,textarea,p,blockquote,th,td {
     padding: 0;
     margin: 0;
     }
-h3 {font-family: arial; helvetica;
+#myContainer h3 {font-family: arial; helvetica;
 	color: white;
 	margin-top: 100px;
 	font-size: 7vw;
 	font-weight: bold;
 	overflow: hidden;
 	animation: type 4s steps(60, end);
+	 -webkit-animation: type 4s steps(60, end);
    }
-   h3:nth-child(2){
+  #myContainer h3 :nth-child(2){
   animation: type2 8s steps(60, end);
+   -webkit-animation: type 4s steps(60, end);
 }
 h4 {font-family: arial; helvetica;
 	color: red;
