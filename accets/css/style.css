@@ -1,46 +1,37 @@
 /* Reset CSS
  * --------------------------------------- */
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h5,h6,pre,
 form,fieldset,input,textarea,p,blockquote,th,td {
     padding: 0;
     margin: 0;
-
-
-
-	
-}
+    }
 h3 {font-family: arial; helvetica;
 	color: white;
 	margin-top: 100px;
 	font-size: 7vw;
 	font-weight: bold;
-
-}
+   }
 h4 {font-family: arial; helvetica;
 	color: red;
 	margin-top: 50px;
 	font-size: 7vw;
 	font-weight: bold;
+	margin-left: 40px;
+    }
+h2 {font-family: helvetica,arial;
+	color: white;
+	font-size: 1.6em;
+	font-weight: normal;
+    }
 
-}
-h2{font-family: helvetica,arial;
-	color: white;
-	font-size: 1.6em;
-	font-weight: normal;
-}
-h1{font-family: helvetica,arial;
-	color: white;
-	font-size: 1.6em;
-	font-weight: normal;
-}
-p{
+p  {
 	font-size: 1.5em;
-}
+   }
 .graduated{
 	background-color: red;
 	background-size: cover;
 	top:0;
-}
+   }
 .graduated,
 .fullscreen{
 	position: absolute;
@@ -50,10 +41,10 @@ p{
 	z-index: 1;
 	vertical-align: middle;
 	text-align: center;
-	 -webkit-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
+    }
 
 /* Section 1
  * --------------------------------------- */
@@ -70,68 +61,52 @@ p{
  * --------------------------------------- */
 .section2{
 	background:white;
-}
+    }
 .ms-right .section2{
 	background-image: url(../image/photo.jpg);
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: cover;
-}
-
-
+    }
 
 /* Section 3
  * --------------------------------------- */
 .ms-left .section3{
  /* fallback */
   background-color: red;
-  
-}
+  }
 .ms-right .section3{
 	background-color: red;
-	
-}
+  }
 
 
 .section3 h1{
  	color: #fff;
- }
+  }
 .section3 h2{
  	margin: 70px 0 0 0;
-	
 	color: white;
-}
+  }
 .section3 .content{
 	margin-left: 15%;
 	display: block;
 	top: 20%;
 	position: absolute;
 	box-sizing: border-box;
-}
+  }
 
 /* Section 4
  * --------------------------------------- */
 .section4{
 	background:white;
-	
-}
-.section4 h1{
-	color: black;
-	text-align: right;
-	margin-right: 30px;
-	font-size: 1.5em;
-	position: absolute;
-	bottom:15px;
-	left:30%;
-	
-}
+    }
 
 .ms-right .section4{
 	background-image: url(../image/affiche.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	 -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
 	
 }
 
@@ -139,128 +114,71 @@ p{
  * --------------------------------------- */
 .section5{
 	background:white;
-	
-}
-.ms-right .section5 h1{
-	color: black;
-	text-align: right;
-	margin-left: 20px;
-	font-size: 1.5em;
-	text-align: left;
-	position: absolute;
-	bottom:15px;
-	
-}
+	}
+
 
 .ms-left .section5{
 	background-image: url(../image/magic.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-
-	
-	 -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
 }
 	
-
-
-
 /* Section 6
  * --------------------------------------- */
 .section6{
 	background:white;
-	
-}
-.section6 h1{
-	color: black;
-	text-align: right;
-	margin-right: 20px;
-	font-size: 1.5em;
-	position: absolute;
-	bottom:15px;
-	left:50%;
-	
-}
+	}
 
 .ms-right .section6{
 	background-image: url(../image/school.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	 -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
-	
-}
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+	}
 
 /* Section 7
  * --------------------------------------- */
 .section7{
 	background:white;
-	
-}
-.ms-right .section7 h1{
-	color: black;
-	text-align: right;
-	margin-left: 20px;
-	font-size: 1.5em;
-	text-align: left;
-	position: absolute;
-	bottom:15px;
-	
-}
+	}
 
 .ms-left .section7{
 	background-image: url(../image/product.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    }
 	
-	 -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
-}
-	
-
-
 /* Section 8
  * --------------------------------------- */
 .section8{
 	background:white;
-	
-}
-.section8 h1{
-	color: black;
-	text-align: right;
-	margin-right: 20px;
-	font-size: 1.5em;
-	position: absolute;
-	bottom:15px;
-	left:50%;
-	
-}
+	}
 
 .ms-right .section8{
 	background-image: url(../image/jazz.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	 -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
-	
-}
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+	}
 
 
 
 /* Section 9
  * --------------------------------------- */
 .ms-left .section9 .fullscreen{
-	
 	top:23%;
 	}
 	.section9 {
-	
 	background-color: white;
 	}
 .section9 .fullscreen img {
-	
-	 -webkit-animation:  bounce_back  0.35s ease infinite alternate;
+	-webkit-animation:  bounce_back  0.35s ease infinite alternate;
 	animation: bounce_back  0.35s ease infinite alternate;
 	}
 
@@ -341,35 +259,16 @@ form textarea {
   margin-right: 2%;
 }
 
-@media (max-width: 480px) {
-  .half {
-    width: 100%;
-    float: none;
-    margin-bottom: 0;
-  }
-}
-/* Clearfix */
-.cf:before,
-.cf:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-
-.cf:after {
-  clear: both;
-}
 
 
-p {font-family: Helvetica, Arial, sans-serif;
+p  {font-family: Helvetica, Arial, sans-serif;
 	padding-top: 10px;
 	padding-left: 0px;
 	padding-right: 10px;
 	margin-left: 4%;
 	display: inline-block;
 	margin-top: 30px;
-}
+    }
 
 .p1 {
 	font-family: 'helvetica', sans-serif;
@@ -379,7 +278,7 @@ p {font-family: Helvetica, Arial, sans-serif;
 	margin-top: 20px;
 	border-width: 0;
 	width: 100px;
-	 margin-top: 30px;
+	margin-top: 30px;
 	}
 .p2 {
 	font-family: 'helvetica', sans-serif;
@@ -390,36 +289,26 @@ p {font-family: Helvetica, Arial, sans-serif;
 	padding-left: 10px;
 	margin-left: 50%;
 	margin-top: 50px;
-	
-	
 	border-width: 0;
-	
-}
+	}
 .p3 {
 	font-family: 'times', sans-serif;
 	font-size: 0.7em;
-	
-	
-
-	}
+    }
 .p4 {
 	font-family: 'arial', sans-serif;
 	font-size: 0.5em;
 	font-weight: lighter;
 	background: black;
     color:white;	
-    
     padding-left: 10px;
-
-}
+    }
 .p5 {
 	font-family: 'helvetica', sans-serif;
 	font-size: 1em;
 	font-weight: 700;
 	display: block;
-
-
-	}
+    }
 .p5 a {
 	font-family: 'helvetica', sans-serif;
 	font-size: 1em;
@@ -441,12 +330,10 @@ p {font-family: Helvetica, Arial, sans-serif;
  }
  p form {
  margin-left: 0px.
- 
  }
 fieldset {
  padding:0 20px 20px 20px;
  margin-bottom:10px;
- 
  }
 legend {
  color:white;
@@ -461,13 +348,10 @@ label.inline {
  margin-right:50px;
  }
 input, textarea, select, option {
- 
  }
 input, textarea, select {
  padding:3px;
- 
  width:200px;
- 
  }
 select {
  margin-top:10px;
@@ -480,10 +364,28 @@ input[type=radio] {
 input[type=submit], input[type=reset] {
  width:100px;
  margin-left:5px;
- 
  cursor:pointer;
  }
  /* --------------------------------------- */
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+/* Clearfix */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
 @keyframes bounce {
      from {transform: translateY(0);}
      to   {transform: translateY(-5px);}
@@ -493,3 +395,4 @@ input[type=submit], input[type=reset] {
      from {transform: translateY(0);}
      to   {transform: translateY(5px);}
 }
+
