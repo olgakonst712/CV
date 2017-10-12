@@ -115,8 +115,6 @@ p  {
 .section5{
 	background:white;
 	}
-
-
 .ms-left .section5{
 	background-image: url(../image/magic.jpg);
 	background-repeat: no-repeat;
@@ -130,7 +128,6 @@ p  {
 .section6{
 	background:white;
 	}
-
 .ms-right .section6{
 	background-image: url(../image/school.jpg);
 	background-repeat: no-repeat;
@@ -144,7 +141,6 @@ p  {
 .section7{
 	background:white;
 	}
-
 .ms-left .section7{
 	background-image: url(../image/product.jpg);
 	background-repeat: no-repeat;
@@ -158,7 +154,6 @@ p  {
 .section8{
 	background:white;
 	}
-
 .ms-right .section8{
 	background-image: url(../image/jazz.jpg);
 	background-repeat: no-repeat;
@@ -166,9 +161,6 @@ p  {
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
 	}
-
-
-
 /* Section 9
  * --------------------------------------- */
 .ms-left .section9 .fullscreen{
@@ -181,8 +173,6 @@ p  {
 	-webkit-animation:  bounce_back  0.35s ease infinite alternate;
 	animation: bounce_back  0.35s ease infinite alternate;
 	}
-
-
 
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 *,
