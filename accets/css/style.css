@@ -169,7 +169,7 @@ p  {
 	.section9 {
 	background-color: white;
 	}
-.section9 .fullscreen a img {
+.section9 .fullscreen img {
 	-webkit-animation:  bounce_back  0.35s ease infinite alternate;
 	animation: bounce_back  0.35s ease infinite alternate;
 	}
